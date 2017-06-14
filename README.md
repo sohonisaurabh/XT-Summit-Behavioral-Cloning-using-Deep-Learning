@@ -75,10 +75,8 @@ Welcome to the world of Machine Learning!
   4.	Flow this error back to the network (known as 'Back Propagation') and re-run the algorithm.
   5.	Stop when the error is minimal. This is when the network converges and results in high accuracy output.
 
-  Back propagation is usually done by using a sophisticated version of 'Gradient Descent' (GD) algorithm. GD is explained well in the
-  video below:
-
-  https://www.youtube.com/watch?v=29PmNG7fuuM
+  Back propagation is usually done by using a sophisticated version of 'Gradient Descent' (GD) algorithm. GD is explained well in this
+  [video](https://www.youtube.com/watch?v=29PmNG7fuuM)
 
   The directions mentioned in the video are nothing but hyper parameters (or weights and biases) initialized in the beginning of DL 
   learning process.
@@ -129,9 +127,7 @@ Welcome to the world of Machine Learning!
   Following were the resources used in this application:
 
   Car simulator, built and attributed by a team of Unity developers in Udacity for the self driving car nanodegree program. This can be
-  downloaded by cloning below mentioned git repo:
-
-  https://github.com/udacity/self-driving-car-sim
+  downloaded by cloning this [git repo](https://github.com/udacity/self-driving-car-sim)
 
   This simulator has two tracks, with provision to go in training and autonomous mode to drive the car on each track.
   In training mode, the simulator installs three cameras on the hood of the car and captures center, left and right images from what 
@@ -143,10 +139,7 @@ Welcome to the world of Machine Learning!
 
 ### Network architecture
 
-  Network architecture used for training was the one developed by a team NVIDIA ('End to end learning for self driving cars'), 
-  specifically for self driving cars. More details on the architecture can be found here:
-  
-  https://arxiv.org/pdf/1604.07316.pdf
+  Network architecture used for training was the one developed by a team NVIDIA (['End to end learning for self driving cars'](https://arxiv.org/pdf/1604.07316.pdf)), specifically for self driving cars.
   
   The architecture is shown below:
 
@@ -164,9 +157,7 @@ Welcome to the world of Machine Learning!
   (such as rocks, trees, bright sunlight, water, etc.), variations in the road (tar road and cemented road) and variations in the 
   edges of the track (stripped edges, muddly edges, solid edges), the car did not leave the track for any portion and remained close 
   to the center of the track for most of the time. Also, when tried to pull the car away from the track by entering manual mode, 
-  the car quickly recovered back and continued its path. This is demonstrated in the video below:
-
-  https://www.youtube.com/watch?v=X_19YM5A-Bc
+  the car quickly recovered back and continued its path. This is demonstrated in this ['Behavioral Cloning - Track 1'](https://www.youtube.com/watch?v=X_19YM5A-Bc)
 
 
 ## Transfer Learning:
@@ -184,19 +175,13 @@ Welcome to the world of Machine Learning!
   The answer is use of the concept of ‘Transfer learning’. DL models trained for one kind of an application can be reused for similar 
   kinds of application, with very little investment of time and money. This is because the model has already learnt about a lot of 
   features and it just needs some training for newly added features present in other application. This process is best explained in 
-  this blog post by Sebastian Ruder given below:
-  
-  http://sebastianruder.com/transfer-learning/
+  this blog post by [Sebastian Ruder](http://sebastianruder.com/transfer-learning/).
   
   As a demonstration, the model built on track 1 was used to analyze the behavior on track 2 of the simulator. It performed pretty well 
-  except for a few newly added scenarios (such as two tracks and bridge built with metal bars) in track 2. This is shown below:
+  except for a few newly added scenarios (such as two tracks and bridge built with metal bars) in track 2. This is demonstrated in
+  ['Transfer Learning - Track 2'](https://www.youtube.com/watch?v=JxHRf5fFonQ)
 
-  https://www.youtube.com/watch?v=JxHRf5fFonQ
-
-
-  Highly accurate pre-trained models are already available as a part of open source community and can be found at below github repo:
-
-  https://github.com/fchollet/deep-learning-models
+  Highly accurate pre-trained models are already available as a part of open source community and can be found at this [github repo](https://github.com/fchollet/deep-learning-models)
 
 
 ## Conclusion:
