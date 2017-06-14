@@ -1,4 +1,4 @@
-# XT-Summit-2017 - Behavioral Cloning using Deep Learning
+﻿# XT-Summit-2017 - Behavioral Cloning using Deep Learning
 
   In this project, autonomous driving of a car around a cicular track is achieved using Deep Learning. Car driving skill and nature of
   human(s) is recorded and a network is trained to clone this behavior. The car then uses predictions fron the trained network to drive
@@ -58,7 +58,7 @@ Welcome to the world of Machine Learning!
    network. Mathematically, input perceptrons are feature vectors of data, processing perceptrons are weights (which the network 
    learns) and output is simply a sum of the dot product of inputs with weights. This is shown below:
 
-  ![alt text](https://raw.githubusercontent.com/sohonisaurabh/xt-summit/master/resources/neural-net-mathematical.png)
+  ![alt text](https://raw.githubusercontent.com/sohonisaurabh/xt-summit/master/resources/neural-net-mathematical-resized.png)
 
    Y = Sum (X1.W1, X2.W2.....Xn.Wn)
 
