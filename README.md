@@ -68,8 +68,8 @@ Welcome to the world of Machine Learning!
 
   1.	Labelled data set (for e.g.: images of cats, dogs, humans, etc.) is fed as an input.
   2.	Weights of the network are usually initialized to truncated normal or values from gaussian distribution in the range 0 to 1. 
-    Since the outputs are dot products and most DL architectures use Rectified Linear Units (ReLUs) as an activation function, never 
-    initialize the weights to zero as they would just cancel out the inputs.
+    Since the outputs are dot products and most DL architectures use Rectified Linear Units (ReLUs) as an activation function, **never 
+    initialize the weights to zero as they would just cancel out the inputs**.
   3.	Processing is done and prediction is obtained as an output. Compare this output with the expected value and calculate the mismatch 
     by calculating error.
   4.	Flow this error back to the network (known as 'Back Propagation') and re-run the algorithm.
