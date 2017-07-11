@@ -52,13 +52,13 @@ Welcome to the world of Machine Learning!
    comprises of neurons, DL architectures are thought to be made of perception neurons, or 'perceptrons'. This is shown in the 
    visual below:
 
-  ![alt text](https://raw.githubusercontent.com/sohonisaurabh/xt-summit/master/resources/neural-network.png)
+  ![Neural Network](https://raw.githubusercontent.com/sohonisaurabh/xt-summit/master/resources/neural-network.png)
   
    All the circular units shown in the image are perceptrons. Perceptrons can be a part of input, processing or output layer of a DL 
    network. Mathematically, input perceptrons are feature vectors of data, processing perceptrons are weights (which the network 
    learns) and output is simply a sum of the dot product of inputs with weights. This is shown below:
 
-  ![alt text](https://raw.githubusercontent.com/sohonisaurabh/xt-summit/master/resources/neural-net-mathematical-resized.png)
+  ![Neural network mathematical model](https://raw.githubusercontent.com/sohonisaurabh/xt-summit/master/resources/neural-net-mathematical-resized.png)
 
    Y = Sum (X1.W1, X2.W2.....Xn.Wn)
 
@@ -94,7 +94,7 @@ Welcome to the world of Machine Learning!
 
   One of the early neural network architecture is the LeNet architecture shown below:
 
-  ![alt text](https://raw.githubusercontent.com/sohonisaurabh/xt-summit/master/resources/lenet5.png)
+  ![LeNet architecture](https://raw.githubusercontent.com/sohonisaurabh/xt-summit/master/resources/lenet5.png)
 
   Latest DL architectures such as the RESNET architecture from a team at Microsoft has around 200 layers in between the input and the 
   output. Such deep are deep learning architectures!
@@ -143,7 +143,7 @@ Welcome to the world of Machine Learning!
   
   The architecture is shown below:
 
-  ![alt text](https://raw.githubusercontent.com/sohonisaurabh/xt-summit/master/resources/nvidia-architecture.png)
+  ![NVIDIA architecture](https://raw.githubusercontent.com/sohonisaurabh/xt-summit/master/resources/nvidia-architecture.png)
 
 
 ### Library 
