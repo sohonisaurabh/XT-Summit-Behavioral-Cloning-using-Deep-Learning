@@ -1,7 +1,7 @@
 ﻿# XT-Summit-2017 - Behavioral Cloning using Deep Learning
 
-  In this project, autonomous driving of a car around a cicular track is achieved using Deep Learning. Car driving skill and nature of
-  human(s) is recorded and a network is trained to clone this behavior. The car then uses predictions fron the trained network to drive
+  In this project, autonomous driving of a car around a circular track is achieved using Deep Learning. Car driving skill and nature of
+  human(s) is recorded and a network is trained to clone this behavior. The car then uses predictions from the trained network to drive
   autonomously.
 
 Welcome to the world of Machine Learning!
@@ -21,12 +21,12 @@ Welcome to the world of Machine Learning!
                
    Every ML system is a processing unit which does nothing more than ‘garbage in’ (referring to the input data) and ‘garbage out’ 
    (referring to the output). To make this system work for a specific requirement, peculiar features needs to be filtered from raw input
-   data. For e.g.: In image classification applications, features such as RGB values, edges, shape, color density need to be extracted 
+   data. For e.g.: In image classification applications, features such as RGB values, edges, shape and color density need to be extracted 
    from raw pixel values and fed to ML processing unit. Then in expectation, the ML unit will output correct decision, say between an 
    image of a cat and image of a dog.
    
    Feature extraction does not always work as expected and hence, such systems are prone to errors in case of complicated decision. 
-   For e.g.:, Just by doing brightness augmentation in the image of cat described above, one can make it very tough for existing ML 
+   For e.g.: Just by doing brightness augmentation in the image of cat described above, one can make it very tough for existing ML 
    system to come out with a correct decision of classification.
    
    So how can we tackle this problem? Using ‘Deep Learning’ (referred to as DL, hereafter) techniques.
@@ -45,7 +45,7 @@ Welcome to the world of Machine Learning!
 
    Let's break the ice, forget the fear and start building our future with DL!
 
-### Deep Learning building blocks - Neural Networks:
+### Deep learning building blocks - Neural Networks:
 
    DL architectures were inspired from the way human brain works on processing, dissecting and classifying objects from a view 
    recorded by eyes. This processing takes place inside the visual cortex, located on the back side of human brain. Since brain 
@@ -67,7 +67,7 @@ Welcome to the world of Machine Learning!
   Every DL network goes through following steps to till its convergence:
 
   1.	Labelled data set (for e.g.: images of cats, dogs, humans, etc.) is fed as an input.
-  2.	Weights of the network are usually initialized to truncated normal or values from gaussian distribution in the range 0 to 1. 
+  2.	Weights of the network are usually initialized to truncated normal or values from Gaussian distribution in the range 0 to 1. 
     Since the outputs are dot products and most DL architectures use Rectified Linear Units (ReLUs) as an activation function, **never 
     initialize the weights to zero as they would just cancel out the inputs**.
   3.	Processing is done and prediction is obtained as an output. Compare this output with the expected value and calculate the mismatch 
@@ -100,7 +100,7 @@ Welcome to the world of Machine Learning!
   output. Such deep are deep learning architectures!
 
 
-## Deep Learning libraries and frameworks:
+## Deep learning libraries and frameworks:
 
   To train a DL network for a particular task, one needs to find the right architecture and write some code to include the layers 
   present in the architecture. Below are a few open source DL libraries:
@@ -126,7 +126,7 @@ Welcome to the world of Machine Learning!
 
   Following were the resources used in this application:
 
-  Car simulator, built and attributed by a team of Unity developers in Udacity for the self driving car nanodegree program. This can be
+  Car simulator, built and attributed by a team of Unity developers in Udacity for the self-driving car nanodegree program. This can be
   downloaded by cloning this [git repo](https://github.com/udacity/self-driving-car-sim)
 
   This simulator has two tracks, with provision to go in training and autonomous mode to drive the car on each track.
@@ -139,7 +139,7 @@ Welcome to the world of Machine Learning!
 
 ### Network architecture
 
-  Network architecture used for training was the one developed by a team NVIDIA (['End to end learning for self driving cars'](https://arxiv.org/pdf/1604.07316.pdf)), specifically for self driving cars.
+  Network architecture used for training was the one developed by a team NVIDIA (['End to end learning for self driving cars'](https://arxiv.org/pdf/1604.07316.pdf)), specifically for self-driving cars.
   
   The architecture is shown below:
 
@@ -155,7 +155,7 @@ Welcome to the world of Machine Learning!
   After around 20 epochs, the loss recorded was minimal and the model was converged. This model was then connected to the 
   simulator and the car was driven in autonomous mode on track 1. In spite of having different elements in the background 
   (such as rocks, trees, bright sunlight, water, etc.), variations in the road (tar road and cemented road) and variations in the 
-  edges of the track (stripped edges, muddly edges, solid edges), the car did not leave the track for any portion and remained close 
+  edges of the track (stripped edges, muddy edges, solid edges), the car did not leave the track for any portion and remained close 
   to the center of the track for most of the time. Also, when tried to pull the car away from the track by entering manual mode, 
   the car quickly recovered back and continued its path. This is demonstrated in this ['Behavioral Cloning - Track 1'](https://www.youtube.com/watch?v=X_19YM5A-Bc)
 
@@ -181,7 +181,7 @@ Welcome to the world of Machine Learning!
   except for a few newly added scenarios (such as two tracks and bridge built with metal bars) in track 2. This is demonstrated in
   ['Transfer Learning - Track 2'](https://www.youtube.com/watch?v=JxHRf5fFonQ)
 
-  Highly accurate pre-trained models are already available as a part of open source community and can be found at this [github repo](https://github.com/fchollet/deep-learning-models)
+  Highly accurate pre-trained models are already available as a part of open source community and can be found at this [GitHub repo](https://github.com/fchollet/deep-learning-models)
 
 
 ## Conclusion:
@@ -191,7 +191,7 @@ Welcome to the world of Machine Learning!
   More resources can be found in below mentioned links:
   
   Stanford's course on deep learning (cs 231n)
-  Udacity self driving car nanodegree course
+  Udacity self-driving car nanodegree course
   TensorFlow
   Keras
   TensorBoard
